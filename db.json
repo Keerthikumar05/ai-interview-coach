@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "admin-id-123",
+      "name": "Mock Interviewer Admin",
+      "email": "admin@interviewiq.ai",
+      "passwordHash": "admin123",
+      "role": "ADMIN",
+      "targetRole": "Solutions Architect",
+      "experienceLevel": "Senior",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "preferredLang": "en",
+      "createdAt": "2026-08-04T15:45:17.144Z"
+    }
+  ],
+  "sessions": [],
+  "questionBank": [
+    {
+      "id": "apt-1",
+      "category": "aptitude",
+      "topic": "Quantitative Aptitude - Work & Time",
+      "difficulty": "medium",
+      "company": "TCS",
+      "question": "A can finish a work in 15 days and B can do the same work in 20 days. They work together for 4 days. What fraction of the work is left?",
+      "options": [
+        "A) 7/15",
+        "B) 8/15",
+        "C) 11/15",
+        "D) 2/15"
+      ],
+      "correctAnswer": "B",
+      "explanation": "A's 1 day work = 1/15. B's 1 day work = 1/20. Together they do (1/15 + 1/20) = 7/60 work in 1 day. In 4 days they do 4 * 7/60 = 28/60 = 7/15 work. Left fraction is 1 - 7/15 = 8/15."
+    },
+    {
+      "id": "apt-2",
+      "category": "aptitude",
+      "topic": "Quantitative Aptitude - Speed & Distance",
+      "difficulty": "medium",
+      "company": "Infosys",
+      "question": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train in meters?",
+      "options": [
+        "A) 120m",
+        "B) 180m",
+        "C) 324m",
+        "D) 150m"
+      ],
+      "correctAnswer": "D",
+      "explanation": "Speed in m/s = 60 * (5/18) = 50/3 m/s. Length of train = Speed * Time = (50/3) * 9 = 150 meters."
+    },
+    {
+      "id": "apt-3",
+      "category": "aptitude",
+      "topic": "Logical Reasoning - Number Series",
+      "difficulty": "easy",
+      "company": "Wipro",
+      "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+      "options": [
+        "A) 1/3",
+        "B) 1/8",
+        "C) 2/8",
+        "D) 1/16"
+      ],
+      "correctAnswer": "B",
+      "explanation": "This is a simple division series; each number is one-half of the previous number."
+    },
+    {
+      "id": "apt-4",
+      "category": "aptitude",
+      "topic": "Logical Reasoning - Coding Decoding",
+      "difficulty": "medium",
+      "company": "Cognizant",
+      "question": "In a certain code, COMPUTER is written as OCPMTURE. How is MEDICINE written in that same code?",
+      "options": [
+        "A) EMIDICEN",
+        "B) EMIDCIEN",
+        "C) EMIDICNE",
+        "D) EMDIICNE"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Letters are swapped in pairs: CO -> OC, MP -> PM, UT -> TU, ER -> RE. MEDICINE becomes EM ID IC EN."
+    },
+    {
+      "id": "apt-5",
+      "category": "aptitude",
+      "topic": "Verbal Ability - Synonyms",
+      "difficulty": "easy",
+      "company": "Accenture",
+      "question": "Choose the word that is most nearly identical in meaning to: RESILIENT",
+      "options": [
+        "A) Flexible/Elastic",
+        "B) Fragile/Brittle",
+        "C) Lazy/Sluggish",
+        "D) Heavy/Dense"
+      ],
+      "correctAnswer": "A",
+      "explanation": "Resilient means tending to recover or bounce back easily from misfortune or change; hence flexible or elastic is closest."
+    },
+    {
+      "id": "apt-6",
+      "category": "aptitude",
+      "topic": "Quantitative Aptitude - Probability",
+      "difficulty": "hard",
+      "company": "Google",
+      "question": "Three unbiased coins are tossed. What is the probability of getting at least 2 heads?",
+      "options": [
+        "A) 1/4",
+        "B) 3/8",
+        "C) 1/2",
+        "D) 3/4"
+      ],
+      "correctAnswer": "C",
+      "explanation": "Sample space size = 2^3 = 8. Favorable outcomes (at least 2 heads): HHH, HHT, HTH, THH. Number of favorable = 4. Probability = 4/8 = 1/2."
+    }
+  ],
+  "auditLogs": []
+}
