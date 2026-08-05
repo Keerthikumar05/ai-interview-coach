@@ -865,6 +865,113 @@
           "generatedAt": "2026-08-05T08:37:23.201Z"
         }
       ]
+    },
+    {
+      "id": "ses-451lowze8",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:38:30.043Z",
+      "roundScores": [
+        {
+          "roundNumber": 4,
+          "roundName": "HR fit Round",
+          "score": 57,
+          "passed": false,
+          "transcript": [
+            {
+              "sender": "interviewer",
+              "text": "Why do you want to join our organization specifically, and how do our core values align with your long-term career path?",
+              "timestamp": "2026-08-05T08:38:38.191Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "Situation: our checkout service had a twelve percent failure rate and customers complained. Task: I owned reliability for the quarter. Action: I added retries with backoff, idempotency keys and a circuit breaker, then instrumented tracing. Result: failure rate fell below one percent and latency improved forty percent.",
+              "timestamp": "2026-08-05T08:38:38.191Z"
+            },
+            {
+              "sender": "interviewer",
+              "text": "Where do you see yourself five years from now? What milestones do you hope to achieve here?",
+              "timestamp": "2026-08-05T08:38:56.559Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "Situation: our checkout service had a twelve percent failure rate and customers complained. Task: I owned reliability for the quarter. Action: I added retries with backoff, idempotency keys and a circuit breaker, then instrumented tracing. Result: failure rate fell below one percent and latency improved forty percent.",
+              "timestamp": "2026-08-05T08:38:56.559Z"
+            }
+          ],
+          "startedAt": "2026-08-05T08:38:38.191Z",
+          "completedAt": "2026-08-05T08:38:56.559Z",
+          "feedbackJson": {
+            "score": 57,
+            "strengths": [
+              "Behavioural detail present — situation, action and outcome are recognisable.",
+              "Clean delivery with no detected filler words."
+            ],
+            "weaknesses": [
+              "The answer was too brief — interviewers expect concrete detail and examples.",
+              "The response drifted away from what was actually asked."
+            ],
+            "feedback": "Round 4 (HR fit Round) scored 57/100. You used 47 words across 4 sentence(s). This answer would likely fall below the bar. Add concrete examples, numbers and clear structure.",
+            "followUp": "Can you give me a specific example with a measurable outcome?",
+            "recruiterNotes": "Round 4 — HR fit Round: scored 57%. The answer was too brief — interviewers expect concrete detail and examples.",
+            "confidence": 65,
+            "fillerWordsDetected": [],
+            "grammarCorrections": "Grammar and phrasing read cleanly for a professional interview context.",
+            "nextDifficulty": "same",
+            "personalizedPractice": [
+              "Rewrite this same answer in exactly 4 sentences: context, action, result, learning."
+            ]
+          }
+        }
+      ],
+      "behaviorMetrics": [
+        {
+          "roundNumber": 4,
+          "avgEyeContact": 88,
+          "avgWpm": 220,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:38:38.191Z"
+        },
+        {
+          "roundNumber": 4,
+          "avgEyeContact": 88,
+          "avgWpm": 220,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:38:56.559Z"
+        }
+      ],
+      "recruiterNotes": [
+        {
+          "roundNumber": 4,
+          "noteText": "Round 4 — HR fit Round: scored 57%. The answer was too brief — interviewers expect concrete detail and examples.",
+          "generatedAt": "2026-08-05T08:38:38.191Z"
+        },
+        {
+          "roundNumber": 4,
+          "noteText": "Round 4 — HR fit Round: scored 57%. The answer was too brief — interviewers expect concrete detail and examples.",
+          "generatedAt": "2026-08-05T08:38:56.559Z"
+        }
+      ]
     }
   ],
   "questionBank": [
