@@ -18,7 +18,962 @@
       "createdAt": "2026-08-04T15:45:17.144Z"
     }
   ],
-  "sessions": [],
+  "sessions": [
+    {
+      "id": "ses-7kkps11yu",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:29:11.055Z",
+      "roundScores": [],
+      "behaviorMetrics": [],
+      "recruiterNotes": []
+    },
+    {
+      "id": "ses-u3ns0oly0",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:29:35.552Z",
+      "roundScores": [],
+      "behaviorMetrics": [],
+      "recruiterNotes": []
+    },
+    {
+      "id": "ses-bv04qqa5e",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:30:13.850Z",
+      "roundScores": [],
+      "behaviorMetrics": [],
+      "recruiterNotes": []
+    },
+    {
+      "id": "ses-2s3fzkpr4",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:30:47.964Z",
+      "roundScores": [],
+      "behaviorMetrics": [],
+      "recruiterNotes": []
+    },
+    {
+      "id": "ses-l46gzddkf",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:31:18.549Z",
+      "roundScores": [
+        {
+          "roundNumber": 2,
+          "roundName": "Communication Assessment",
+          "score": 64,
+          "passed": true,
+          "transcript": [
+            {
+              "sender": "interviewer",
+              "text": "How do you ensure you stay productive and focused when working in a fully remote or highly collaborative environment?",
+              "timestamp": "2026-08-05T08:31:25.954Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "In my previous project I led the migration of a monolithic Node service to modular APIs. The situation was slow deploys, my task was to reduce release time, I split the service into three domains, added integration tests and CI, and the result was deploy time dropping from 40 minutes to 6 minutes with fewer regressions.",
+              "timestamp": "2026-08-05T08:31:25.954Z"
+            }
+          ],
+          "startedAt": "2026-08-05T08:31:25.954Z",
+          "completedAt": "2026-08-05T08:31:25.954Z",
+          "feedbackJson": {
+            "score": 64,
+            "strengths": [
+              "Answer length is well suited to an interview setting.",
+              "Clean delivery with no detected filler words."
+            ],
+            "weaknesses": [
+              "The response drifted away from what was actually asked.",
+              "Missing STAR structure: state the Situation, Task, Action and measurable Result."
+            ],
+            "feedback": "Round 2 (Communication Assessment) scored 64/100. You used 56 words across 2 sentence(s). A solid answer that would pass most screens, but it needs sharper specifics to stand out.",
+            "followUp": "Can you give me a specific example with a measurable outcome?",
+            "recruiterNotes": "Round 2 — Communication Assessment: scored 64%. The response drifted away from what was actually asked.",
+            "confidence": 90,
+            "fillerWordsDetected": [],
+            "grammarCorrections": "Grammar and phrasing read cleanly for a professional interview context.",
+            "nextDifficulty": "same",
+            "personalizedPractice": [
+              "Keep drilling harder variants of this question to maintain the standard."
+            ]
+          }
+        }
+      ],
+      "behaviorMetrics": [
+        {
+          "roundNumber": 2,
+          "avgEyeContact": 88,
+          "avgWpm": 220,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:31:25.954Z"
+        }
+      ],
+      "recruiterNotes": [
+        {
+          "roundNumber": 2,
+          "noteText": "Round 2 — Communication Assessment: scored 64%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:31:25.954Z"
+        }
+      ]
+    },
+    {
+      "id": "ses-wq1ab9e60",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:31:47.293Z",
+      "roundScores": [
+        {
+          "roundNumber": 2,
+          "roundName": "Communication Assessment",
+          "score": 10,
+          "passed": false,
+          "transcript": [
+            {
+              "sender": "interviewer",
+              "text": "Could you describe a challenging project you worked on and how you handled communications under tight schedules?",
+              "timestamp": "2026-08-05T08:31:54.655Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "In my previous project I led the migration of a monolithic Node service to modular APIs. The situation was slow deploys, my task was to reduce release time, I split the service into three domains, added integration tests and CI, and the result was deploy time dropping from 40 minutes to 6 minutes with fewer regressions.",
+              "timestamp": "2026-08-05T08:31:54.655Z"
+            },
+            {
+              "sender": "interviewer",
+              "text": "Could you describe a challenging project you worked on and how you handled communications under tight schedules?",
+              "timestamp": "2026-08-05T08:32:04.180Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "In my previous project I led the migration of a monolithic Node service to modular APIs. The situation was slow deploys, my task was to reduce release time, I split the service into three domains, added integration tests and CI, and the result was deploy time dropping from 40 minutes to 6 minutes with fewer regressions.",
+              "timestamp": "2026-08-05T08:32:04.180Z"
+            },
+            {
+              "sender": "interviewer",
+              "text": "Could you describe a challenging project you worked on and how you handled communications under tight schedules?",
+              "timestamp": "2026-08-05T08:32:13.603Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "In my previous project I led the migration of a monolithic Node service to modular APIs. The situation was slow deploys, my task was to reduce release time, I split the service into three domains, added integration tests and CI, and the result was deploy time dropping from 40 minutes to 6 minutes with fewer regressions.",
+              "timestamp": "2026-08-05T08:32:13.603Z"
+            },
+            {
+              "sender": "interviewer",
+              "text": "Could you describe a challenging project you worked on and how you handled communications under tight schedules?",
+              "timestamp": "2026-08-05T08:32:23.032Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "In my previous project I led the migration of a monolithic Node service to modular APIs. The situation was slow deploys, my task was to reduce release time, I split the service into three domains, added integration tests and CI, and the result was deploy time dropping from 40 minutes to 6 minutes with fewer regressions.",
+              "timestamp": "2026-08-05T08:32:23.032Z"
+            },
+            {
+              "sender": "interviewer",
+              "text": "Could you describe a challenging project you worked on and how you handled communications under tight schedules?",
+              "timestamp": "2026-08-05T08:32:32.392Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "In my previous project I led the migration of a monolithic Node service to modular APIs. The situation was slow deploys, my task was to reduce release time, I split the service into three domains, added integration tests and CI, and the result was deploy time dropping from 40 minutes to 6 minutes with fewer regressions.",
+              "timestamp": "2026-08-05T08:32:32.392Z"
+            },
+            {
+              "sender": "interviewer",
+              "text": "Could you describe a challenging project you worked on and how you handled communications under tight schedules?",
+              "timestamp": "2026-08-05T08:32:41.782Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "In my previous project I led the migration of a monolithic Node service to modular APIs. The situation was slow deploys, my task was to reduce release time, I split the service into three domains, added integration tests and CI, and the result was deploy time dropping from 40 minutes to 6 minutes with fewer regressions.",
+              "timestamp": "2026-08-05T08:32:41.782Z"
+            },
+            {
+              "sender": "interviewer",
+              "text": "Could you describe a challenging project you worked on and how you handled communications under tight schedules?",
+              "timestamp": "2026-08-05T08:32:51.090Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "In my previous project I led the migration of a monolithic Node service to modular APIs. The situation was slow deploys, my task was to reduce release time, I split the service into three domains, added integration tests and CI, and the result was deploy time dropping from 40 minutes to 6 minutes with fewer regressions.",
+              "timestamp": "2026-08-05T08:32:51.090Z"
+            },
+            {
+              "sender": "interviewer",
+              "text": "Could you describe a challenging project you worked on and how you handled communications under tight schedules?",
+              "timestamp": "2026-08-05T08:33:00.578Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "In my previous project I led the migration of a monolithic Node service to modular APIs. The situation was slow deploys, my task was to reduce release time, I split the service into three domains, added integration tests and CI, and the result was deploy time dropping from 40 minutes to 6 minutes with fewer regressions.",
+              "timestamp": "2026-08-05T08:33:00.578Z"
+            }
+          ],
+          "startedAt": "2026-08-05T08:31:54.655Z",
+          "completedAt": "2026-08-05T08:33:00.578Z",
+          "feedbackJson": {
+            "score": 68,
+            "strengths": [
+              "Answer length is well suited to an interview setting.",
+              "Clean delivery with no detected filler words."
+            ],
+            "weaknesses": [
+              "The response drifted away from what was actually asked.",
+              "Missing STAR structure: state the Situation, Task, Action and measurable Result."
+            ],
+            "feedback": "Round 2 (Communication Assessment) scored 68/100. You used 56 words across 2 sentence(s). A solid answer that would pass most screens, but it needs sharper specifics to stand out.",
+            "followUp": "Can you give me a specific example with a measurable outcome?",
+            "recruiterNotes": "Round 2 — Communication Assessment: scored 68%. The response drifted away from what was actually asked.",
+            "confidence": 90,
+            "fillerWordsDetected": [],
+            "grammarCorrections": "Grammar and phrasing read cleanly for a professional interview context.",
+            "nextDifficulty": "same",
+            "personalizedPractice": [
+              "Keep drilling harder variants of this question to maintain the standard."
+            ]
+          }
+        }
+      ],
+      "behaviorMetrics": [
+        {
+          "roundNumber": 2,
+          "avgEyeContact": 88,
+          "avgWpm": 220,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:31:54.655Z"
+        },
+        {
+          "roundNumber": 2,
+          "avgEyeContact": 88,
+          "avgWpm": 201,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:32:04.180Z"
+        },
+        {
+          "roundNumber": 2,
+          "avgEyeContact": 88,
+          "avgWpm": 128,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:32:13.603Z"
+        },
+        {
+          "roundNumber": 2,
+          "avgEyeContact": 88,
+          "avgWpm": 94,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:32:23.032Z"
+        },
+        {
+          "roundNumber": 2,
+          "avgEyeContact": 88,
+          "avgWpm": 75,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:32:32.392Z"
+        },
+        {
+          "roundNumber": 2,
+          "avgEyeContact": 88,
+          "avgWpm": 62,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:32:41.782Z"
+        },
+        {
+          "roundNumber": 2,
+          "avgEyeContact": 88,
+          "avgWpm": 53,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:32:51.090Z"
+        },
+        {
+          "roundNumber": 2,
+          "avgEyeContact": 88,
+          "avgWpm": 46,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:33:00.578Z"
+        }
+      ],
+      "recruiterNotes": [
+        {
+          "roundNumber": 2,
+          "noteText": "Round 2 — Communication Assessment: scored 68%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:31:54.655Z"
+        },
+        {
+          "roundNumber": 2,
+          "noteText": "Round 2 — Communication Assessment: scored 68%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:32:04.180Z"
+        },
+        {
+          "roundNumber": 2,
+          "noteText": "Round 2 — Communication Assessment: scored 68%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:32:13.603Z"
+        },
+        {
+          "roundNumber": 2,
+          "noteText": "Round 2 — Communication Assessment: scored 68%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:32:23.032Z"
+        },
+        {
+          "roundNumber": 2,
+          "noteText": "Round 2 — Communication Assessment: scored 68%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:32:32.392Z"
+        },
+        {
+          "roundNumber": 2,
+          "noteText": "Round 2 — Communication Assessment: scored 68%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:32:41.782Z"
+        },
+        {
+          "roundNumber": 2,
+          "noteText": "Round 2 — Communication Assessment: scored 68%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:32:51.090Z"
+        },
+        {
+          "roundNumber": 2,
+          "noteText": "Round 2 — Communication Assessment: scored 68%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:33:00.578Z"
+        }
+      ]
+    },
+    {
+      "id": "ses-8aqs90g28",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:33:31.277Z",
+      "roundScores": [
+        {
+          "roundNumber": 4,
+          "roundName": "HR fit Round",
+          "score": 73,
+          "passed": true,
+          "transcript": [
+            {
+              "sender": "interviewer",
+              "text": "Why do you want to join our organization specifically, and how do our core values align with your long-term career path?",
+              "timestamp": "2026-08-05T08:33:38.410Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "Situation: our checkout service had a 12 percent failure rate. Task: I owned reliability for that quarter. Action: I added retries with exponential backoff, idempotency keys and a circuit breaker, and instrumented traces to find the slow dependency. Result: failures dropped to under one percent and p95 latency improved by 40 percent, which the team measured over four weeks.",
+              "timestamp": "2026-08-05T08:33:38.410Z"
+            }
+          ],
+          "startedAt": "2026-08-05T08:33:38.410Z",
+          "completedAt": "2026-08-05T08:33:38.410Z",
+          "feedbackJson": {
+            "score": 73,
+            "strengths": [
+              "Answer length is well suited to an interview setting.",
+              "Behavioural detail present — situation, action and outcome are recognisable.",
+              "Clean delivery with no detected filler words."
+            ],
+            "weaknesses": [
+              "The response drifted away from what was actually asked."
+            ],
+            "feedback": "Round 4 (HR fit Round) scored 73/100. You used 59 words across 4 sentence(s). A solid answer that would pass most screens, but it needs sharper specifics to stand out.",
+            "followUp": "Can you give me a specific example with a measurable outcome?",
+            "recruiterNotes": "Round 4 — HR fit Round: scored 73%. The response drifted away from what was actually asked.",
+            "confidence": 90,
+            "fillerWordsDetected": [],
+            "grammarCorrections": "Grammar and phrasing read cleanly for a professional interview context.",
+            "nextDifficulty": "same",
+            "personalizedPractice": [
+              "Keep drilling harder variants of this question to maintain the standard."
+            ]
+          }
+        }
+      ],
+      "behaviorMetrics": [
+        {
+          "roundNumber": 4,
+          "avgEyeContact": 88,
+          "avgWpm": 220,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:33:38.410Z"
+        }
+      ],
+      "recruiterNotes": [
+        {
+          "roundNumber": 4,
+          "noteText": "Round 4 — HR fit Round: scored 73%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:33:38.410Z"
+        }
+      ],
+      "overallScore": 15,
+      "selectionStatus": "INCOMPLETE_INTERVIEW",
+      "completedAt": "2026-08-05T08:33:46.556Z",
+      "feedbackJson": {
+        "executiveSummary": "The candidate demonstrated standard competencies for a Solutions Architect role. Performance was balanced across conceptual technical queries and core communication structures.",
+        "strengths": [
+          "Strong initial programming logic",
+          "Excellent professional vocabulary",
+          "Clear explanations"
+        ],
+        "growthAreas": [
+          "Struggled slightly with DP algorithms",
+          "A few excessive conversational filler words in Round 2"
+        ],
+        "roadmap": [
+          {
+            "week": "Week 1",
+            "task": "Practice 3 LeetCode Arrays/Strings daily. Track complexity structures."
+          },
+          {
+            "week": "Week 2",
+            "task": "Reduce communication filler words by taking deep, steady breathing pauses."
+          },
+          {
+            "week": "Week 3",
+            "task": "Review OOP core design rules, especially SOLID principles."
+          },
+          {
+            "week": "Week 4",
+            "task": "Practice live STAR answers in mirror focusing on Eye Contact metrics."
+          }
+        ],
+        "readinessMetrics": {
+          "technicalReadiness": 0,
+          "codingReadiness": 0,
+          "communicationReadiness": 0,
+          "hrReadiness": 73,
+          "problemSolvingReadiness": 0,
+          "overallJobReadiness": 15
+        }
+      }
+    },
+    {
+      "id": "ses-1q7h4wjty",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:34:37.640Z",
+      "roundScores": [
+        {
+          "roundNumber": 4,
+          "roundName": "HR fit Round",
+          "score": 73,
+          "passed": true,
+          "transcript": [
+            {
+              "sender": "interviewer",
+              "text": "Where do you see yourself five years from now? What milestones do you hope to achieve here?",
+              "timestamp": "2026-08-05T08:34:44.767Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "Situation: our checkout service had a 12 percent failure rate. Task: I owned reliability for that quarter. Action: I added retries with exponential backoff, idempotency keys and a circuit breaker, and instrumented traces to find the slow dependency. Result: failures dropped to under one percent and p95 latency improved by 40 percent, which the team measured over four weeks.",
+              "timestamp": "2026-08-05T08:34:44.767Z"
+            }
+          ],
+          "startedAt": "2026-08-05T08:34:44.767Z",
+          "completedAt": "2026-08-05T08:34:44.767Z",
+          "feedbackJson": {
+            "score": 73,
+            "strengths": [
+              "Answer length is well suited to an interview setting.",
+              "Behavioural detail present — situation, action and outcome are recognisable.",
+              "Clean delivery with no detected filler words."
+            ],
+            "weaknesses": [
+              "The response drifted away from what was actually asked."
+            ],
+            "feedback": "Round 4 (HR fit Round) scored 73/100. You used 59 words across 4 sentence(s). A solid answer that would pass most screens, but it needs sharper specifics to stand out.",
+            "followUp": "Can you give me a specific example with a measurable outcome?",
+            "recruiterNotes": "Round 4 — HR fit Round: scored 73%. The response drifted away from what was actually asked.",
+            "confidence": 90,
+            "fillerWordsDetected": [],
+            "grammarCorrections": "Grammar and phrasing read cleanly for a professional interview context.",
+            "nextDifficulty": "same",
+            "personalizedPractice": [
+              "Keep drilling harder variants of this question to maintain the standard."
+            ]
+          }
+        }
+      ],
+      "behaviorMetrics": [
+        {
+          "roundNumber": 4,
+          "avgEyeContact": 88,
+          "avgWpm": 220,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:34:44.767Z"
+        }
+      ],
+      "recruiterNotes": [
+        {
+          "roundNumber": 4,
+          "noteText": "Round 4 — HR fit Round: scored 73%. The response drifted away from what was actually asked.",
+          "generatedAt": "2026-08-05T08:34:44.767Z"
+        }
+      ],
+      "overallScore": 15,
+      "selectionStatus": "INCOMPLETE_INTERVIEW",
+      "completedAt": "2026-08-05T08:34:52.926Z",
+      "feedbackJson": {
+        "executiveSummary": "The candidate demonstrated standard competencies for a Solutions Architect role. Performance was balanced across conceptual technical queries and core communication structures.",
+        "strengths": [
+          "Strong initial programming logic",
+          "Excellent professional vocabulary",
+          "Clear explanations"
+        ],
+        "growthAreas": [
+          "Struggled slightly with DP algorithms",
+          "A few excessive conversational filler words in Round 2"
+        ],
+        "roadmap": [
+          {
+            "week": "Week 1",
+            "task": "Practice 3 LeetCode Arrays/Strings daily. Track complexity structures."
+          },
+          {
+            "week": "Week 2",
+            "task": "Reduce communication filler words by taking deep, steady breathing pauses."
+          },
+          {
+            "week": "Week 3",
+            "task": "Review OOP core design rules, especially SOLID principles."
+          },
+          {
+            "week": "Week 4",
+            "task": "Practice live STAR answers in mirror focusing on Eye Contact metrics."
+          }
+        ],
+        "readinessMetrics": {
+          "technicalReadiness": 0,
+          "codingReadiness": 0,
+          "communicationReadiness": 0,
+          "hrReadiness": 73,
+          "problemSolvingReadiness": 0,
+          "overallJobReadiness": 15
+        }
+      }
+    },
+    {
+      "id": "ses-g2cty0snr",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:36:01.687Z",
+      "roundScores": [
+        {
+          "roundNumber": 4,
+          "roundName": "HR fit Round",
+          "score": 48,
+          "passed": false,
+          "transcript": [
+            {
+              "sender": "interviewer",
+              "text": "Why do you want to join our organization specifically, and how do our core values align with your long-term career path?",
+              "timestamp": "2026-08-05T08:36:09.967Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "Situation: our checkout service had a twelve percent failure rate. Task: I owned reliability. Action: I added retries, idempotency keys and a circuit breaker. Result: failures dropped under one percent.",
+              "timestamp": "2026-08-05T08:36:09.967Z"
+            }
+          ],
+          "startedAt": "2026-08-05T08:36:09.967Z",
+          "completedAt": "2026-08-05T08:36:09.967Z",
+          "feedbackJson": {
+            "score": 48,
+            "strengths": [
+              "Behavioural detail present — situation, action and outcome are recognisable.",
+              "Clean delivery with no detected filler words."
+            ],
+            "weaknesses": [
+              "The answer was too brief — interviewers expect concrete detail and examples.",
+              "The response drifted away from what was actually asked."
+            ],
+            "feedback": "Round 4 (HR fit Round) scored 48/100. You used 30 words across 4 sentence(s). This answer would likely fall below the bar. Add concrete examples, numbers and clear structure.",
+            "followUp": "Can you give me a specific example with a measurable outcome?",
+            "recruiterNotes": "Round 4 — HR fit Round: scored 48%. The answer was too brief — interviewers expect concrete detail and examples.",
+            "confidence": 65,
+            "fillerWordsDetected": [],
+            "grammarCorrections": "Grammar and phrasing read cleanly for a professional interview context.",
+            "nextDifficulty": "easier",
+            "personalizedPractice": [
+              "Rewrite this same answer in exactly 4 sentences: context, action, result, learning."
+            ]
+          }
+        }
+      ],
+      "behaviorMetrics": [
+        {
+          "roundNumber": 4,
+          "avgEyeContact": 88,
+          "avgWpm": 220,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:36:09.967Z"
+        }
+      ],
+      "recruiterNotes": [
+        {
+          "roundNumber": 4,
+          "noteText": "Round 4 — HR fit Round: scored 48%. The answer was too brief — interviewers expect concrete detail and examples.",
+          "generatedAt": "2026-08-05T08:36:09.967Z"
+        }
+      ],
+      "overallScore": 10,
+      "selectionStatus": "INCOMPLETE_INTERVIEW",
+      "completedAt": "2026-08-05T08:36:19.132Z",
+      "feedbackJson": {
+        "executiveSummary": "The candidate demonstrated standard competencies for a Solutions Architect role. Performance was balanced across conceptual technical queries and core communication structures.",
+        "strengths": [
+          "Strong initial programming logic",
+          "Excellent professional vocabulary",
+          "Clear explanations"
+        ],
+        "growthAreas": [
+          "Struggled slightly with DP algorithms",
+          "A few excessive conversational filler words in Round 2"
+        ],
+        "roadmap": [
+          {
+            "week": "Week 1",
+            "task": "Practice 3 LeetCode Arrays/Strings daily. Track complexity structures."
+          },
+          {
+            "week": "Week 2",
+            "task": "Reduce communication filler words by taking deep, steady breathing pauses."
+          },
+          {
+            "week": "Week 3",
+            "task": "Review OOP core design rules, especially SOLID principles."
+          },
+          {
+            "week": "Week 4",
+            "task": "Practice live STAR answers in mirror focusing on Eye Contact metrics."
+          }
+        ],
+        "readinessMetrics": {
+          "technicalReadiness": 0,
+          "codingReadiness": 0,
+          "communicationReadiness": 0,
+          "hrReadiness": 48,
+          "problemSolvingReadiness": 0,
+          "overallJobReadiness": 10
+        }
+      }
+    },
+    {
+      "id": "ses-ky6slb2x8",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:37:15.027Z",
+      "roundScores": [
+        {
+          "roundNumber": 4,
+          "roundName": "HR fit Round",
+          "score": 48,
+          "passed": false,
+          "transcript": [
+            {
+              "sender": "interviewer",
+              "text": "Describe your greatest professional strength and one area of weakness you are actively trying to improve.",
+              "timestamp": "2026-08-05T08:37:23.201Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "Situation: our checkout service had a twelve percent failure rate. Task: I owned reliability. Action: I added retries, idempotency keys and a circuit breaker. Result: failures dropped under one percent.",
+              "timestamp": "2026-08-05T08:37:23.201Z"
+            }
+          ],
+          "startedAt": "2026-08-05T08:37:23.201Z",
+          "completedAt": "2026-08-05T08:37:23.201Z",
+          "feedbackJson": {
+            "score": 48,
+            "strengths": [
+              "Behavioural detail present — situation, action and outcome are recognisable.",
+              "Clean delivery with no detected filler words."
+            ],
+            "weaknesses": [
+              "The answer was too brief — interviewers expect concrete detail and examples.",
+              "The response drifted away from what was actually asked."
+            ],
+            "feedback": "Round 4 (HR fit Round) scored 48/100. You used 30 words across 4 sentence(s). This answer would likely fall below the bar. Add concrete examples, numbers and clear structure.",
+            "followUp": "Can you give me a specific example with a measurable outcome?",
+            "recruiterNotes": "Round 4 — HR fit Round: scored 48%. The answer was too brief — interviewers expect concrete detail and examples.",
+            "confidence": 65,
+            "fillerWordsDetected": [],
+            "grammarCorrections": "Grammar and phrasing read cleanly for a professional interview context.",
+            "nextDifficulty": "easier",
+            "personalizedPractice": [
+              "Rewrite this same answer in exactly 4 sentences: context, action, result, learning."
+            ]
+          }
+        }
+      ],
+      "behaviorMetrics": [
+        {
+          "roundNumber": 4,
+          "avgEyeContact": 88,
+          "avgWpm": 220,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:37:23.201Z"
+        }
+      ],
+      "recruiterNotes": [
+        {
+          "roundNumber": 4,
+          "noteText": "Round 4 — HR fit Round: scored 48%. The answer was too brief — interviewers expect concrete detail and examples.",
+          "generatedAt": "2026-08-05T08:37:23.201Z"
+        }
+      ]
+    },
+    {
+      "id": "ses-451lowze8",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-05T08:38:30.043Z",
+      "roundScores": [
+        {
+          "roundNumber": 4,
+          "roundName": "HR fit Round",
+          "score": 57,
+          "passed": false,
+          "transcript": [
+            {
+              "sender": "interviewer",
+              "text": "Why do you want to join our organization specifically, and how do our core values align with your long-term career path?",
+              "timestamp": "2026-08-05T08:38:38.191Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "Situation: our checkout service had a twelve percent failure rate and customers complained. Task: I owned reliability for the quarter. Action: I added retries with backoff, idempotency keys and a circuit breaker, then instrumented tracing. Result: failure rate fell below one percent and latency improved forty percent.",
+              "timestamp": "2026-08-05T08:38:38.191Z"
+            },
+            {
+              "sender": "interviewer",
+              "text": "Where do you see yourself five years from now? What milestones do you hope to achieve here?",
+              "timestamp": "2026-08-05T08:38:56.559Z"
+            },
+            {
+              "sender": "candidate",
+              "text": "Situation: our checkout service had a twelve percent failure rate and customers complained. Task: I owned reliability for the quarter. Action: I added retries with backoff, idempotency keys and a circuit breaker, then instrumented tracing. Result: failure rate fell below one percent and latency improved forty percent.",
+              "timestamp": "2026-08-05T08:38:56.559Z"
+            }
+          ],
+          "startedAt": "2026-08-05T08:38:38.191Z",
+          "completedAt": "2026-08-05T08:38:56.559Z",
+          "feedbackJson": {
+            "score": 57,
+            "strengths": [
+              "Behavioural detail present — situation, action and outcome are recognisable.",
+              "Clean delivery with no detected filler words."
+            ],
+            "weaknesses": [
+              "The answer was too brief — interviewers expect concrete detail and examples.",
+              "The response drifted away from what was actually asked."
+            ],
+            "feedback": "Round 4 (HR fit Round) scored 57/100. You used 47 words across 4 sentence(s). This answer would likely fall below the bar. Add concrete examples, numbers and clear structure.",
+            "followUp": "Can you give me a specific example with a measurable outcome?",
+            "recruiterNotes": "Round 4 — HR fit Round: scored 57%. The answer was too brief — interviewers expect concrete detail and examples.",
+            "confidence": 65,
+            "fillerWordsDetected": [],
+            "grammarCorrections": "Grammar and phrasing read cleanly for a professional interview context.",
+            "nextDifficulty": "same",
+            "personalizedPractice": [
+              "Rewrite this same answer in exactly 4 sentences: context, action, result, learning."
+            ]
+          }
+        }
+      ],
+      "behaviorMetrics": [
+        {
+          "roundNumber": 4,
+          "avgEyeContact": 88,
+          "avgWpm": 220,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:38:38.191Z"
+        },
+        {
+          "roundNumber": 4,
+          "avgEyeContact": 88,
+          "avgWpm": 220,
+          "fillerWordCount": 0,
+          "avgConfidence": 60,
+          "emotionProfile": {
+            "happy": 12,
+            "neutral": 60,
+            "nervous": 0,
+            "confused": 5,
+            "confident": 60
+          },
+          "sampledAt": "2026-08-05T08:38:56.559Z"
+        }
+      ],
+      "recruiterNotes": [
+        {
+          "roundNumber": 4,
+          "noteText": "Round 4 — HR fit Round: scored 57%. The answer was too brief — interviewers expect concrete detail and examples.",
+          "generatedAt": "2026-08-05T08:38:38.191Z"
+        },
+        {
+          "roundNumber": 4,
+          "noteText": "Round 4 — HR fit Round: scored 57%. The answer was too brief — interviewers expect concrete detail and examples.",
+          "generatedAt": "2026-08-05T08:38:56.559Z"
+        }
+      ]
+    }
+  ],
   "questionBank": [
     {
       "id": "apt-1",
