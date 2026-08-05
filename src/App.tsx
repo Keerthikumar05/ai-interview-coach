@@ -489,12 +489,41 @@ export default function App() {
   };
 
   const handleNextQuestion = async () => {
-    // In speech and HR rounds, the user proceeds after reviewing feedbacks
+    // Ask another question INSIDE the current round (round advance is a
+    // separate action handled by "Complete this round").
     setLastAnswerScore(null);
-    setIsListening(true);
-    // Request follow-up or advance to next round
-    await advanceToNextRound();
+    setIsListening(false);
+    setIsThinking(true);
+    try {
+      const res = await fetch(`/api/interview/${activeSession.id}/next-question`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`
+        },
+        body: JSON.stringify({
+          roundNumber: currentRoundNumber,
+          roundName: currentRoundName
+        })
+      });
+      const data = await res.json();
+      if (res.ok && data.questionText) {
+        if (data.interviewer) setInterviewerName(data.interviewer);
+        setCurrentQuestionText(data.questionText);
+        triggerAvatarSpeech(data.questionText);
+      } else {
+        setSessionError("Could not load the next question. Please try again.");
+        setIsListening(true);
+      }
+    } catch (e: any) {
+      console.error("Failed to fetch next question:", e);
+      setSessionError("Connection failure while loading the next question.");
+      setIsListening(true);
+    } finally {
+      setIsThinking(false);
+    }
   };
+
 
   // Custom route view checks
   const isReportViewActive = view.startsWith("session-report-");
