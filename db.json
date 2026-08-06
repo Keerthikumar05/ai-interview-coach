@@ -972,6 +972,19 @@
           "generatedAt": "2026-08-05T08:38:56.559Z"
         }
       ]
+    },
+    {
+      "id": "ses-558hlp69h",
+      "userId": "admin-id-123",
+      "company": "TCS",
+      "targetRole": "Solutions Architect",
+      "difficulty": "medium",
+      "jdData": null,
+      "language": "en",
+      "startedAt": "2026-08-06T02:48:35.159Z",
+      "roundScores": [],
+      "behaviorMetrics": [],
+      "recruiterNotes": []
     }
   ],
   "questionBank": [
