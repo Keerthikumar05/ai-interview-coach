@@ -4,6 +4,7 @@
  */
 
 import React, { useCallback, useEffect, useRef, useState } from "react";
+import { readJson } from "../lib/api";
 import { Mic, MicOff, Send, Play, Loader2, CheckCircle2, ArrowRight, Terminal } from "lucide-react";
 
 interface InteractionPanelProps {

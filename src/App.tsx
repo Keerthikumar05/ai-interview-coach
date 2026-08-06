@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect, useRef } from "react";
+import { readJson } from "./lib/api";
 import Header from "./components/Header";
 import AvatarPanel from "./components/AvatarPanel";
 import LiveMetricsBar from "./components/LiveMetricsBar";

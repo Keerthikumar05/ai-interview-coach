@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { readJson } from "../lib/api";
 import { ArrowLeft, ShieldCheck } from "lucide-react";
 
 export default function AdminView({ token, onExit }: any) {
