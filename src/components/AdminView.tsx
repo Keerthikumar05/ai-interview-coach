@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { readJson } from "../lib/api";
 import { ArrowLeft, ShieldCheck } from "lucide-react";
 
 export default function AdminView({ token, onExit }: any) {
@@ -6,7 +7,7 @@ export default function AdminView({ token, onExit }: any) {
 
   useEffect(() => {
     fetch("/api/dashboard/summary", { headers: { Authorization: `Bearer ${token}` } })
-      .then((r) => r.json())
+      .then(readJson)
       .then(setSummary)
       .catch(() => setSummary(null));
   }, [token]);

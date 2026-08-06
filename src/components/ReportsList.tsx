@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { readJson } from "../lib/api";
 import { FileText, Loader2 } from "lucide-react";
 
 export default function ReportsList({ setView, setReportSession, token }: any) {
@@ -7,7 +8,7 @@ export default function ReportsList({ setView, setReportSession, token }: any) {
 
   useEffect(() => {
     fetch("/api/dashboard/summary", { headers: { Authorization: `Bearer ${token}` } })
-      .then((r) => r.json())
+      .then(readJson)
       .then((d) => setSessions(d.sessions || []))
       .catch(() => setSessions([]))
       .finally(() => setLoading(false));

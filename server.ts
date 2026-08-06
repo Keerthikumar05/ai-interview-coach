@@ -1151,6 +1151,14 @@ app.get("/api/dashboard/summary", (req, res) => {
 // VITE DEV SERVER OR STATIC SERVING MIDDLEWARE
 // -------------------------------------------------------------------------
 async function startServer() {
+  // Guard: any /api/* path that reached this point matched no route above.
+  // Answer with JSON 404 so the SPA fallback can never return index.html
+  // for an API request (which would crash the client with "Unexpected token '<'").
+  app.use("/api", (req, res) => {
+    res.status(404).json({ error: `Unknown API endpoint: ${req.method} /api${req.url}` });
+  });
+
+
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
       server: { middlewareMode: true },

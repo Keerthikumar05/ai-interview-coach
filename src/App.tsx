@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect, useRef } from "react";
+import { readJson } from "./lib/api";
 import Header from "./components/Header";
 import AvatarPanel from "./components/AvatarPanel";
 import LiveMetricsBar from "./components/LiveMetricsBar";
@@ -171,7 +172,7 @@ export default function App() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload)
       });
-      const data = await res.json();
+      const data = await readJson(res);
 
       if (res.ok) {
         setToken(data.token);
@@ -281,7 +282,7 @@ export default function App() {
           userProfile: currentUserProfile
         })
       });
-      const data = await res.json();
+      const data = await readJson(res);
 
       if (res.ok && data.session) {
         console.log("[DEBUG] Session initialization completed");
@@ -321,7 +322,7 @@ export default function App() {
                 roundName: initialRoundName
               })
             });
-            const qData = await qRes.json();
+            const qData = await readJson(qRes);
             if (qRes.ok) {
               const qText = qData.questionText;
               setCurrentQuestionText(qText);
@@ -428,7 +429,7 @@ export default function App() {
           method: "POST",
           headers: { Authorization: `Bearer ${token}` }
         });
-        const data = await res.json();
+        const data = await readJson(res);
         if (res.ok) {
           setReportSession(data.session);
           setView(`session-report-${activeSession.id}`);
@@ -472,7 +473,7 @@ export default function App() {
           roundName: targetRoundName
         })
       });
-      const data = await res.json();
+      const data = await readJson(res);
       if (res.ok) {
         const invName = data.interviewer || (nextRound === 2 ? "Priya" : nextRound === 3 ? "Aanya" : "Neha");
         setInterviewerName(invName);
@@ -506,7 +507,7 @@ export default function App() {
           roundName: currentRoundName
         })
       });
-      const data = await res.json();
+      const data = await readJson(res);
       if (res.ok && data.questionText) {
         if (data.interviewer) setInterviewerName(data.interviewer);
         setCurrentQuestionText(data.questionText);
@@ -811,7 +812,7 @@ export default function App() {
                                 roundName: round.name
                               })
                             });
-                            const qData = await qRes.json();
+                            const qData = await readJson(qRes);
                             if (qRes.ok) {
                               setInterviewerName(qData.interviewer || (round.num === 2 ? "Priya" : round.num === 3 ? "Aanya" : "Neha"));
                               setCurrentQuestionText(qData.questionText);
