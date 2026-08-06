@@ -6,7 +6,7 @@ export default function AdminView({ token, onExit }: any) {
 
   useEffect(() => {
     fetch("/api/dashboard/summary", { headers: { Authorization: `Bearer ${token}` } })
-      .then((r) => r.json())
+      .then(readJson)
       .then(setSummary)
       .catch(() => setSummary(null));
   }, [token]);

@@ -115,7 +115,7 @@ export default function InteractionPanel({
     let cancelled = false;
     setMcqLoading(true);
     fetch(`/api/interview/${sessionId}/mcqs`)
-      .then((r) => r.json())
+      .then(readJson)
       .then((data) => {
         if (cancelled) return;
         setMcqs(Array.isArray(data) ? data : []);
@@ -206,7 +206,7 @@ export default function InteractionPanel({
           ...(explicitScore !== undefined ? { score: explicitScore } : {}),
         }),
       });
-      const data = await res.json();
+      const data = await readJson(res);
 
       if (!res.ok) {
         setEvaluation({ feedback: data.error || "Evaluation failed. Please try again.", score: 0 });
@@ -251,7 +251,7 @@ export default function InteractionPanel({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ code, language: codeLanguage }),
       });
-      const data = await res.json();
+      const data = await readJson(res);
       setCodeOutput(data.output || data.error || "No output.");
     } catch (e: any) {
       setCodeOutput("Execution failed: " + e.message);

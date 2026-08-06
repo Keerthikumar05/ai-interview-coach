@@ -7,7 +7,7 @@ export default function ReportsList({ setView, setReportSession, token }: any) {
 
   useEffect(() => {
     fetch("/api/dashboard/summary", { headers: { Authorization: `Bearer ${token}` } })
-      .then((r) => r.json())
+      .then(readJson)
       .then((d) => setSessions(d.sessions || []))
       .catch(() => setSessions([]))
       .finally(() => setLoading(false));
